@@ -7,4 +7,4 @@ before_install:
   - docker build -t wchamara/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run wchamara/docker-react npm run test -- --coverage
+  - docker run -e CI=true  wchamara/docker-react npm run test
