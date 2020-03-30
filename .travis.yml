@@ -15,7 +15,7 @@ deploy:
   access_key_id:
     secure: "AKIAQ3I2HVFZDCOXVU6U"
   secret_access_key:
-    secure: "md1pWyMTBVfh9jEPaA8L7jtSgODdFaYIsT4rlFB"
+    secure: "md1pWyMTBVfh9jEPaA8L7jtSgODdFaYIsT4rlFB1"
   region: "ap-south-1"
   app: "docker-react"
   env: "DockerReact-env"
